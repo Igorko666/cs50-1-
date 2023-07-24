@@ -5,17 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <title>Google</title>
+    <title>Пошук по зображенню</title>
 
     <link rel="stylesheet" type="text/css" href="css/style.css">
     
 </head>
 <body>
-    <div id="container">
+    <div class="container">
         <header>
             <nav class="navh">
                 <button class="btn1" type="button">
-                    <a href="" class="a1">Пошук по фото</a>
+                    <a href="file:///D:/web.vs%20code/2022/cs50(2)/index.html" class="a1">Пошук Google</a>
                 </button>
                 <button class="btn2" type="button">
                     <a href="" class="a2">Розширений пошук</a>
@@ -25,12 +25,13 @@
         <main class="logo">
             <div class="wrapper">
                 <div>
-                    <img src=".//Google_2015_logo.svg.png" alt="Google" class="google">
+                    <img src="./unnamed.png" alt="" class="google">
                 </div>
                 <form id="search" action="https://google.com/search">
-                    <input type="text" name="q" placeholder="Пошук">
+                    <input type="text" name="q" placeholder="Пошук по фото">
+                    <input type="hidden" name="tbm" value="isch">
                     <div class="buttons">
-                        <button type="submit" form="search" name="btnS" value="Пошук Google" class="btn btn-secondary">Пошук Google</button>
+                        <button type="submit" form="search" name="btnS" value="Пошук по фото" class="btn btn-secondary">Пошук по фото</button>
                         <button type="submit" form="search" name="btnI" value="Мені пощастить" class="btn btn-secondary">Мені пощастить</button>
                     </div>
                 </form>
